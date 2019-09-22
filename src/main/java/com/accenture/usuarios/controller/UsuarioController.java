@@ -22,10 +22,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- *
+ * Esta clase esta diseñada para ser el punto de acceso a la aplicaciòn, contiene mètodos bàsicos (CRUD)
  * @author Yeison Aristizabal
  * @version 1.0
- * @descripcion Esta clase esta diseñada para ser el punto de acceso a la aplicaciòn, contiene mètodos bàsicos (CRUD)
  */
 @RestController
 public class UsuarioController {

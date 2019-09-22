@@ -8,10 +8,9 @@ package com.accenture.usuarios.Mapper;
 import lombok.Data;
 
 /**
- *
+ * Clase encargada de entregar el objeto de respuesta al cliente
  * @author Yeison Aristizabal
  * @version 1.0
- * @descripcion Clase encargada de entregar el objeto de respuesta al cliente
  */
 @Data
 public class UsuarioResponse {

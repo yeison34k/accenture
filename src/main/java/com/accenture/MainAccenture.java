@@ -10,9 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  *
+ * Calse encargada de iniciar la aplicaciòn 
  * @author Yeison Aristizabal
- ** @version 1.0
- *  @descripcion Calse encargada de iniciar la aplicaciòn 
+ * @version 1.0
+ *  
  * https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/SpringApplication.html
  */
 @SpringBootApplication

@@ -10,10 +10,9 @@ import javax.validation.constraints.Pattern;
 import lombok.Data;
 
 /**
- *
+ * Clase usada para validar los datos ingresados
  * @author Yesion Aristizabal
  * @version 1.0
- * @descripcion Clase usada para validar los datos ingresados
  */
 @Data
 public class UsuarioRequest {

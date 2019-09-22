@@ -12,10 +12,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
+ * Interfaz contruidad para definir los mètodos necesarios que me definen la lògica del negocio
  * @author Yeison Aristizabal
  * @version 1.0
- * @descripcion Intefaz contruidad para definir los metodos necesarios que me definen la lògica del negocio
  */
 public interface UsuariosService {
     

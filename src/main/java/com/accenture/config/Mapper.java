@@ -10,10 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- *
+ * Definir configuraciòn para hacer la transformaciòn de entidades y dtos
  * @author Yeison Aristizabal
  * @version 1.0
- * @descripcion Definir configuraciòn para hacer la transformaciòn de entidades y dtos
  */
 @Configuration
 public class Mapper {

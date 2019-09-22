@@ -13,17 +13,14 @@ import com.accenture.usuarios.service.UsuariosService;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import org.dozer.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- *
+ * Implementaciòn de la interfaz UsuariosService, donde se contruira toda la logica de negocio
  * @author Yeison Aristizabal
  * @version 1.0
- * @descripcion Implementaciòn de la interfaz UsuariosService, donde se contruira toda la logica de negocio
- * 
  */
 @Service
 public class UsuariosServiceImpl implements UsuariosService {

@@ -110,7 +110,6 @@ public class MainAccentureJUnitTest {
     }
 
     /**
-     * converts a Java object into JSON representation
      * @param obj
      * @return 
      */

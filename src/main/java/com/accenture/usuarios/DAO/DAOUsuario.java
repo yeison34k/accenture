@@ -9,10 +9,9 @@ import com.accenture.usuarios.Entity.Usuario;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
- *
+ * Clase contruidad para hacer la operaciones contra la base de datos, esta extiende de MongoRepository que contiene todos los metodos bàsicos (CRUD) y otros metodos adicionales para la construcciòn de nuevos codigos
  * @author Yeison Aristizabal
  * @version 1.0
- * @descripcion Clase contruidad para hacer la operaciones contra la base de datos, esta extiende de MongoRepository que contiene todos los metodos bàsicos (CRUD) y otros metodos adicionales para la construcciòn de nuevos codigos
  */
 public interface DAOUsuario extends MongoRepository<Usuario, Long> {    
 }

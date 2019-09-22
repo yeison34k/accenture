@@ -10,10 +10,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- *
+ * Entidad encargada de describir la tabla de ususarios en la base de datos mongodb
  * @author Yesion aristizabal
- * @version 1.0
- * @descripcion Entidad encargada de describir la tabla de ususarios en la base de datos mongodb
+ * @version 1.0 
  */
 @Data
 @Document(collection = "usuario")
