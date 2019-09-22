@@ -21,7 +21,7 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 ![Paso 2](paso_2_definir_paquetes_basicos.PNG)
 
-3. DEfinimos el archivo pom
+3. Definimos el archivo pom
 
 ![Paso 3](paso_3_definir_el_pom.PNG)
 
@@ -33,8 +33,36 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 ![paso 5](paso_4_crear_clase_run_para_el_proyecto.PNG)
 
-6. Creamos una base de datos mongodb usando el proveedor de servicio [atlas](https://cutt.ly/jwMx5IT) el cual nos permite tener una base de datos disponble 24/7
+6. Creamos una base de datos mongodb usando el proveedor de servicio [atlas](https://cutt.ly/jwMx5IT) el cual nos permite tener una base de datos disponble 24/7, de igual forma le asignamos un usuario y una ip que puede tener acceso a la misma
 
 ![paso 6](mongo.PNG)
 
 7. Realizamos la conexion en el archivo application.properties 
+
+8. Creamos las entidades sobre las cuales vamos a trabajar en este caso es Usuario dentro de esta colocamos el nombre al que va  hacer referencia en la base de datos y los campos que va a tener
+
+9. Creamos los dto de request y response que van a ser usados a momento de hacer una petición desde el cliente
+
+10. Definimos un archivo de configuración y realizamos la configuracón básica del dozer
+
+11. Creamos una interfaz en el paquete de DAO y esta debe extender de MongoRepository la cual contiene los metodos basicos para el manejo de bases de datos no relacionales mongodb
+
+
+12. Creamos la interfaz e inplementación de el servicios encargados de la lógica para el negocio
+  * public UsuarioResponse guardar(UsuarioRequest usuario);
+  * public Usuario getUsuario(Long id);
+  * public Map eliminar(Long id);
+  * public List<Usuario> listarUsuarios();
+
+13. Creamos nuestra clase controller la cual contendra todos los puntos de acceso a la aplicacion (CRUD)
+  * http://localhost:8089/usuario/guardarOModificar
+  * http://localhost:8089/usuario/get/23.json
+  * http://localhost:8089/usuario/listar
+  * http://localhost:8089//usuario/eliminar/39.json
+
+
+
+
+
+
+
