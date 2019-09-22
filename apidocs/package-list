@@ -1,0 +1,8 @@
+com.accenture
+com.accenture.config
+com.accenture.usuarios.DAO
+com.accenture.usuarios.Entity
+com.accenture.usuarios.Mapper
+com.accenture.usuarios.controller
+com.accenture.usuarios.service
+com.accenture.usuarios.service.impl
