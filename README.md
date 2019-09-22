@@ -15,27 +15,27 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 1. Se crea el proyecto usando maven
 
-![paso 1](paso_1_crear_proyecto.PNG ) 
+![paso 1](imagenes/paso_1_crear_proyecto.PNG ) 
 
 2. Definimos los paquetes básicos que vamos a usar en la aplicación
 
-![Paso 2](paso_2_definir_paquetes_basicos.PNG)
+![Paso 2](imagenes/paso_2_definir_paquetes_basicos.PNG)
 
 3. Definimos el archivo pom
 
-![Paso 3](paso_3_definir_el_pom.PNG)
+![Paso 3](imagenes/paso_3_definir_el_pom.PNG)
 
 4. Definimos el archivo application.properties y el puerto por sel cual se desea comunicar la aplicación
 
-![Paso 4](application.properties.PNG)
+![Paso 4](imagenes/application.properties.PNG)
 
 5.Definimos nuetra clase inicial del proyecto 
 
-![paso 5](paso_4_crear_clase_run_para_el_proyecto.PNG)
+![paso 5](imagenes/paso_4_crear_clase_run_para_el_proyecto.PNG)
 
 6. Creamos una base de datos mongodb usando el proveedor de servicio [atlas](https://cutt.ly/jwMx5IT) el cual nos permite tener una base de datos disponble 24/7, de igual forma le asignamos un usuario y una ip que puede tener acceso a la misma
 
-![paso 6](mongo.PNG)
+![paso 6](imagenes/mongo.PNG)
 
 7. Realizamos la conexion en el archivo application.properties 
 
@@ -65,16 +65,20 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
  15. Desplegamos y usamos postman para ver el correcto funcionamiento
    
    * Prueba de guardar registro
-   ![prueba guardado](probando_guardado_y_actualizacion.PNG)
+   
+   ![pruebaguardado](imagenes/probando_guardado_y_actualizacion.PNG)
    
    * Prueba elimiar registro
-   ![prueba eliminacion](prueb_eliminar.PNG)
+   
+   ![pruebaeliminacion](imagenes/prueb_eliminar.PNG)
    
    * Prueba cargar un usuario especifico registro
-   ![prueba get usuario](probando_get.PNG)
+   
+   ![pruebagetusuario](imagenes/probando_get.PNG)
    
    * Prueba para listar todos los usuarios del sistema
-   ![prueba get usuario](listar_todos_los_registros.PNG)
+   
+   ![pruebagetusuarios](imagenes/listar_todos_los_registros.PNG)
 
 
 
