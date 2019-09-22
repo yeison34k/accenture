@@ -33,9 +33,7 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 ![Paso 4](imagenes/application.properties.PNG)
 
-5.Definimos nuetra clase inicial del proyecto 
-
-![paso 5](imagenes/paso_4_crear_clase_run_para_el_proyecto.PNG)
+5.Definimos la clase inicial del proyecto MainAccenture
 
 6. Creamos una base de datos mongodb usando el proveedor de servicio [atlas](https://cutt.ly/jwMx5IT) el cual nos permite tener una base de datos disponble 24/7, de igual forma le asignamos un usuario y una ip que puede tener acceso a la misma
 
