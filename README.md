@@ -1,6 +1,9 @@
 # Aplicaión micro servicios
 Aplicación desarrollada para mostrar la construcción básica de un micro servicio usando spring 
 
+## Url JavaDoc de la aplicación
+[JAVADOC](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 ##  Herramientas usadas
 * [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [netBeans](https://netbeans.org/downloads/8.2/)  
@@ -22,7 +25,7 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 ![Paso 2](imagenes/paso_2_definir_paquetes_basicos.PNG)
 
-3. Definimos el archivo pom
+3. Realizamos la configuración e instalación de las dependencias que vamos a usar
 
 ![Paso 3](imagenes/paso_3_definir_el_pom.PNG)
 
@@ -38,15 +41,16 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 ![paso 6](imagenes/mongo.PNG)
 
-7. Realizamos la conexion en el archivo application.properties 
+7. Realizamos la conexión en el archivo application.properties 
+  * mongodb://accenture:w46nrBtzrpDWeY0c@cluster0-shard-00-00-zhb9q.mongodb.net:27017,cluster0-shard-00-01-zhb9q.mongodb.net:27017,cluster0-shard-00-02-zhb9q.mongodb.net:27017/Accenture?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true
 
 8. Creamos las entidades sobre las cuales vamos a trabajar en este caso es Usuario dentro de esta colocamos el nombre al que va  hacer referencia en la base de datos y los campos que va a tener
 
 9. Creamos los dto de request y response que van a ser usados a momento de hacer una petición desde el cliente
 
-10. Definimos un archivo de configuración y realizamos la configuracón básica del dozer
+10. Definimos un archivo de configuración y realizamos la configuracón básica del dozer para manejo de entidades y dto
 
-11. Creamos una interfaz en el paquete de DAO y esta debe extender de MongoRepository la cual contiene los metodos basicos para el manejo de bases de datos no relacionales mongodb
+11. Creamos una interfaz en el paquete de DAO y esta debe extender de MongoRepository la cual contiene los métodos basicos para el manejo de bases de datos no relacionales mongodb
 
 12. Creamos la interfaz e inplementación de el servicios encargados de la lógica para el negocio
   * public UsuarioResponse guardar(UsuarioRequest usuario);
