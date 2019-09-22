@@ -47,21 +47,34 @@ Aplicación desarrollada para mostrar la construcción básica de un micro servi
 
 11. Creamos una interfaz en el paquete de DAO y esta debe extender de MongoRepository la cual contiene los metodos basicos para el manejo de bases de datos no relacionales mongodb
 
-
 12. Creamos la interfaz e inplementación de el servicios encargados de la lógica para el negocio
   * public UsuarioResponse guardar(UsuarioRequest usuario);
   * public Usuario getUsuario(Long id);
   * public Map eliminar(Long id);
   * public List<Usuario> listarUsuarios();
 
-13. Creamos nuestra clase controller la cual contendra todos los puntos de acceso a la aplicacion (CRUD)
+13. Creamos nuestra clase controller la cual contendra todos los puntos de acceso a la aplicacion (CRUD);
+    Los métodos get y eliminar requieren de el codigo del usuario para su correcto funcionamiento:
   * http://localhost:8089/usuario/guardarOModificar
-  * http://localhost:8089/usuario/get/23.json
   * http://localhost:8089/usuario/listar
+  * http://localhost:8089/usuario/get/23.json
   * http://localhost:8089//usuario/eliminar/39.json
-
-
-
+  
+ 14. Creamos las pruebas unitarias correspondientes a cada punto de acceso MainAccentureJUnitTest
+ 
+ 15. Desplegamos y usamos postman para ver el correcto funcionamiento
+   
+   * Prueba de guardar registro
+   ![prueba guardado](probando_guardado_y_actualizacion.PNG)
+   
+   * Prueba elimiar registro
+   ![prueba eliminacion](prueb_eliminar.PNG)
+   
+   * Prueba cargar un usuario especifico registro
+   ![prueba get usuario](probando_get.PNG)
+   
+   * Prueba para listar todos los usuarios del sistema
+   ![prueba get usuario](listar_todos_los_registros.PNG)
 
 
 
