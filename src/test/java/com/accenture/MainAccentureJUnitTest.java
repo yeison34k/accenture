@@ -102,7 +102,7 @@ public class MainAccentureJUnitTest {
     @Test
     public void getUsuarioById() throws Exception {
         ResultActions result = this.mockMvc
-            .perform(get("/usuario/get/90l" ))
+            .perform(get("/usuario/get/23.json" ))
             .andDo(print()).andExpect(status().isOk())
             .andExpect(content().contentType("application/json;charset=UTF-8"));
         
@@ -116,7 +116,7 @@ public class MainAccentureJUnitTest {
     @Test
     public void eliminar() throws Exception {
         ResultActions result = this.mockMvc
-            .perform(get("/usuario/eliminar/90l" ))
+            .perform(get("/usuario/eliminar/90.json" ))
             .andDo(print()).andExpect(status().isOk())
             .andExpect(content().contentType("application/json;charset=UTF-8"));
         
