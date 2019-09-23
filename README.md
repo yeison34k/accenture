@@ -46,11 +46,11 @@ Aplicación desarrollada para mostrar la construcción básica de un microservic
 
 9. Se crean los DTO de request y response que van a ser usados al momento de hacer una petición desde el cliente.
 
-10. Se definen un archivo de configuración y realizamos la configuracón básica del dozer para manejo de entidades y dto.
+10. Se definen un archivo de configuración y realizamos la configuración básica del dozer para manejo de entidades y dto.
 
 11. Se crea una interfaz en el paquete de DAO y esta debe extender de MongoRepository, la cual contiene los métodos básicos para el manejo de bases de datos no relacionales mongodb.
 
-12. Se crea la interfaz e inplementación de el servicios encargados de la lógica para el negocio
+12. Se crea la interfaz e implementación de los servicios encargados de la lógica para el negocio.
  ```
   public UsuarioResponse guardar(UsuarioRequest usuario);
   public Usuario getUsuario(Long id);
@@ -76,7 +76,7 @@ Aplicación desarrollada para mostrar la construcción básica de un microservic
    
    ![pruebaeliminacion](imagenes/prueb_eliminar.PNG)
    
-   * Prueba para cargar un usuario especifico.
+   * Prueba para cargar un usuario específico.
    
    ![pruebagetusuario](imagenes/probando_get.PNG)
    
