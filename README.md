@@ -44,9 +44,9 @@ Aplicación desarrollada para mostrar la construcción básica de un microservic
 
 8. Se crean las  entidades sobre las cuales vamos a trabajar, en este caso es Usuario, dentro de esta colocamos el nombre al que va hacer referencia en la base de datos y los campos que va a tener.
 
-9. Se crean los DTO de request y response que van a ser usados al momento de hacer una petición desde el cliente.
+9. Se crean los DTO (Mapper) de request y response que van a ser usados al momento de hacer una petición desde el cliente.
 
-10. Se definen un archivo de configuración y realizamos la configuración básica del dozer para manejo de entidades y dto.
+10. Se definen un archivo de configuración y realizamos la configuración básica del dozer para manejo de entidades y dto (Mapper).
 
 11. Se crea una interfaz en el paquete de DAO y esta debe extender de MongoRepository, la cual contiene los métodos básicos para el manejo de bases de datos no relacionales mongodb.
 
