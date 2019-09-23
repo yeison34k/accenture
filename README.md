@@ -1,4 +1,4 @@
-# Aplicaión micro servicios
+# Aplicación micro servicios
 Aplicación desarrollada para mostrar la construcción básica de un micro servicio usando spring 
 
 ## Url JavaDoc de la aplicación
