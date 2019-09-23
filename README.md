@@ -2,7 +2,7 @@
 Aplicación desarrollada para mostrar la construcción básica de un microservicio usando spring.
 
 ## Url JavaDoc de la aplicación
-[JAVADOC](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[JAVADOC](https://github.com/yeison34k/accenture/blob/master/apidocs), debe ser descargada para luego ser visualizada por el navegador de preferencia.
 
 ##  Herramientas usadas
 * [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
