@@ -1,6 +1,6 @@
 # Aplicación microservicios
 Aplicación desarrollada para mostrar la construcción básica de un microservicio usando spring.
-* [Documento de ayuda](https://www.adictosaltrabajo.com/2016/06/07/desarrollo-de-microservicios-con-spring-boot-y-docker/)
+* [Documento de ayuda](https://www.adictosaltrabajo.com/?s=microservicios)
 
 ## Url JavaDoc de la aplicación
 [JAVADOC](https://github.com/yeison34k/accenture/blob/master/apidocs), debe ser descargada para luego ser visualizada por el navegador de preferencia.
