@@ -35,7 +35,7 @@ Aplicación desarrollada para mostrar la construcción básica de un microservic
 
 5.Se define la clase inicial del proyecto MainAccenture.
 
-6. Se crea una base de datos mongodb usando el proveedor de servicio [atlas](https://cutt.ly/jwMx5IT) el cual nos permite tener una base de datos disponble 24/7; de igual forma le asignamos un usuario y una ip que puede tener acceso a la misma.
+6. Se crea una base de datos mongodb usando el proveedor de servicio atlas, el cual nos permite tener una base de datos disponble 24/7; de igual forma, le asignamos un usuario y una ip que puede tener acceso a la misma.
 
 ![paso 6](imagenes/mongo.PNG)
 
