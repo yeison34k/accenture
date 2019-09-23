@@ -62,7 +62,7 @@ Aplicación desarrollada para mostrar la construcción básica de un microservic
   * http://localhost:8089/usuario/guardarOModificar
   * http://localhost:8089/usuario/listar
   * http://localhost:8089/usuario/get/23.json
-  * http://localhost:8089//usuario/eliminar/39.json
+  * http://localhost:8089/usuario/eliminar/39.json
   
  14. Se crean las pruebas unitarias correspondientes a cada punto de acceso MainAccentureJUnitTest
  
