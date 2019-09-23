@@ -13,7 +13,8 @@ Aplicación desarrollada para mostrar la construcción básica de un microservic
 * [loombook](https://projectlombok.org/) 
 * [dozer](https://www.arquitecturajava.com/javabeans-dto-y-dozer/) 
 * [log4j](https://logging.apache.org/log4j/2.x/) 
-* [Postman](https://www.getpostman.com) 
+* [Postman](https://www.getpostman.com)
+* [MockMvc](https://blog.marcnuri.com/mockmvc-introduccion-a-spring-mvc-testing/)
 
 ## Pasos para crear la aplicación
 
