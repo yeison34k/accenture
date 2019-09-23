@@ -1,8 +1,9 @@
 # Aplicación microservicios
 Aplicación desarrollada para mostrar la construcción básica de un microservicio usando spring.
-1. Documentos de ayuda:
+1. Documentos de apoyo:
  * [adictos al trabajo](https://www.adictosaltrabajo.com/?s=microservicios)
  * [opencodez](https://www.opencodez.com/java/use-mongodb-atlas-with-spring-boot.htm)
+ * [bigeek](https://blog.bi-geek.com)
 
 ## Url JavaDoc de la aplicación
 [JAVADOC](https://github.com/yeison34k/accenture/blob/master/apidocs), debe ser descargada para luego ser visualizada por el navegador de preferencia.
