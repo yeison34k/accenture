@@ -56,7 +56,7 @@ public class MainAccentureJUnitTest {
      * https://blog.marcnuri.com/mockmvc-introduccion-a-spring-mvc-testing/
      */
     @Test
-    public void validoIngresoDatosAlGuardarUsuario() throws Exception {
+    public void guardarUsuarios() throws Exception {
         String nombre = "NombrePruebas" + new Date().getTime();
         String apellido = "ApellidoPruebas" + new Date().getTime();
         
@@ -86,7 +86,7 @@ public class MainAccentureJUnitTest {
      * @throws Exception
      */
     @Test
-    public void givenSedeURIWithPathVariable_whenMockMVC_thenResponseOK() throws Exception {
+    public void getUsusarios() throws Exception {
         ResultActions result = this.mockMvc
                 .perform(get("/usuario/listar"))
                 .andDo(print()).andExpect(status().isOk())
